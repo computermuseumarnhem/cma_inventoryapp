@@ -15,7 +15,7 @@
     <tr>
         <td><a href="{{ url_for('show_item', id=item.id) }}">{{ item.id }}</a></td>
         <td>{{ item.label if item.label else '' }}</td>
-        <td>{{ item.name if item.name else '' }}</td>
+        <td>{{ item.get_name() }}</td>
         <td>{{ item.manufacturer if item.manufacturer else '' }}</td>
         <td>{{ item.model if item.model else '' }}</td>
         <td>{{ item.serial if item.serial else '' }}</td>

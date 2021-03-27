@@ -22,6 +22,17 @@ class Item(db.Model):
     def get_thumbnail(self):
         return Picture.query.get(self.thumbnail)
 
+    def get_name(self):
+        if self.name:
+            name = [self.name]
+        else:
+            name = []
+            if self.manufacturer:
+                name.append(self.manufacturer)
+            if self.model:
+                name.append(self.model)
+        return ' '.join(name)
+
 
 class Picture(db.Model):
     id = db.Column(db.Integer, primary_key=True)
