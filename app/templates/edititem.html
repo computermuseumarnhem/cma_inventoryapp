@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+<div class="row">
+    <div class="col-lg-12">
+        <h1>{{ item.name if item.name else '<no name>' }}</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        {% if item.thumbnail %}
+        <img src="{{ item.get_thumbnail().link('300x300') }}" alt="{{ item.get_thumbnail.file }}" class="img-thumbnail rounded">
+        {% else %}
+        <!-- thumbnail id = {{ item.thumbnail }} -->
+        {% endif %}
+    </div>
+    <div class="col-lg-8">
+        {{ wtf.quick_form(form, form_type='horizontal') }}
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <p><a href="{{ url_for('show_items') }}">Back</a></p>
+    </div>
+</div>
+{% endblock  %}

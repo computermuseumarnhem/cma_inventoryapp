@@ -1,0 +1,388 @@
+1	Vosim 99S			Jo Scherpenisse	99S	Vosim		Thuis	Sound synthesizer	Jos Jansen	Ongetest		TMS9900	16bits							?	LU			Hardware_Vosim_99S_picture.jpg
+2	Teletype ASR33 (3)			Teletype Corporation	33-ASR	LT33-DD	WVV1003	Depot	Hardcopy terminal	Museum	OK		Electromechanisch	20mA currentloop							Denz	MacSimski			
+3	Teletype ASR33 (2)			Teletype Corporation	ASR33	ASR33		Depot	Hardcopy terminal	Museum	Werkt niet		Electromechanisch	20mA currentloop								LU			
+4	HP 85 (1)			HP	HP85	HP85		Depot	Programmeerbare calculator	Eightdot	Defect		Custom hp	8 bits	Basic							DND	9 augustus 2014		
+5	Synertek SYM-1			Synertec	SYM-1	SYM-1	91061738	Home	Computer	MacSimski	OK		6502	8 bits KIM-1 compatible											
+6	ITT 2020			ITT	2020	ITT 2020	10949	Depot	Desktop computer	Museum	Defect		6502	8bits Apple II bus											
+7	Apple //e (1)			Apple	A2S2064P	Apple //e	313107	Depot	Homecomputer	Museum	Defect		6502	8bits Apple II bus							MacSimski	DND	9 augustus 2014		
+8	Apple IIc			Apple	A2S4000B	Apple IIc	C50EDNXX	MacSimski	Homecomputer	MacSimski	OK		6502	8bits Apple II bus	PROdos						MacSimski	Kringlopwinkel amsterdam			Hardware_Apple_IIc_picture.jpg
+9	Apple II plus			Apple	II plus	Apple II Plus	A2S2 21207	Depot	Homecomputer	Museum	Defect		6502	8bits Apple II bus							MacSimski				
+10	Apple III			Apple	III	Apple III		Depot	Homecomputer	Museum			6502	8bits Apple II bus								Scryption			
+11	Lexitron videotype 94			Lexitron	Videotype 94	Videotype 94	2118	Depot	Terminal	Museum	Defect		none	96 pin connector											Hardware_Lexitron_videotype_94_picture.jpg
+12	Datalux Microtype		42000007	Datalux	Microtype	Datalux Microtype	920695	Depot	Toetsenbord	Museum	?			AT								DND	9 augustus 2014		
+13	Compaq Portable 486			Compaq	Portable 486	Compaq 486		Depot	Portable computer	Museum	Defect		x86	EISA							MacSimski				
+14	HP 9122 (1)		42001056	HP	9122	HP 9122	2339A22370	Depot	Storage	Museum	OK			GPIB							MacSimski	MacSimski			
+15	HP 9122 (2)			HP	9122	HP 9122	2339A22933	Depot	Storage	Museum	OK			GPIB											
+16	HP 9122 (3)			HP	9122	HP 9122	2339A21542	Depot	Storage	Museum	OK			GPIB								Eric van Horssen	10 oktober 2014		
+17	HP 110		42000006	HP	110	HP 110	2443A24932	Depot	Portable computer	Museum	?		8086	HP-IL	2.11 (in ROM),MS-DOS						MacSimski				
+18	HP 9816			HP	9816	HP 9816	2327G03430	Depot	Desktop computer		Defect		68k	HP-IB							MacSimski	DND	9 augustus 2014		
+19	Olivetti M19			Olivetti	M19	Olivetti M19	2133565	Depot	Desktop computer	Museum	OK		8086	ISA							MacSimski	DND	9 augustus 2014		
+20	Olivetti M21 (1)			Olivetti	M21	Olivetti M21		Depot	Portable computer	Museum	Defect		8086	ISA							MacSimski	MacSimski			
+21	Olivetti M21 (2)			Olivetti	M21	Olivetti M21		Depot	Portable computer	Museum			8086	ISA							MacSimski	MacSimski			
+22	Digital VAXMate			Digital	PC500-B3	Digital VAXmate	AI72101480	Depot	Desktop computer	Museum	Defect		80286	ISA							MacSimski	MacSimski			
+23	Olivetti PCS 286			Olivetti	PCS 286	Olivetti PCS 286		Depot	Desktop computer	Museum			80286	ISA											
+24	Compaq Portable II (2)			Compaq	Portable II	Compaq Portable II		Depot	Portable computer	Museum	OK		8086	ISA	MS-DOS,3.3										
+25	Compaq Portable II (1)			Compaq	Portable II	Compaq Portable II		Depot	Portable computer	Museum	OK		8086	ISA	IBM DOS,5.2										
+26	Compaq Portable III		42001033	Compaq	Portable III / 2660	Compaq Portable III	4032HL4H0095	Depot	Portable computer	Museum			80286	ISA								Rene Bertin via Ecotronics	23 januari 2015		
+27	IBM PS/2 30 (2)			IBM	PS/2 30	IBM PS/2 30		Depot	Desktop computer	Museum			80286	ISA										08-00-2B-34-02-13	
+28	IBM PS/2 30 (1)			IBM	PS2/30	IBM PS2/30		Solder-lab	Computer	Jaybee	Operational		80286	ISA	PC-DOS,5.0							DND	9 augustus 2014		
+29	Laser XT/3			VTech	XT/3	Laser XT/3		Depot	Desktop computer	Bix	Instabiel		8086	ISA	MS-DOS							DND	9 augustus 2014		
+30	IBM PS/2 P70			IBM	PS/2 70	IBM PS/2 P70		Depot	Portable computer	Museum	Defect		x86	Microchannel								DND	9 augustus 2014		
+31	Texas Instruments SilentWriter 709			Texas Instruments	709 Data Terminal	SilentWriter 709	1270950166	Depot	Hardcopy terminal	Museum	OK			Modem 300BAUD								DND	9 augustus 2014		
+32	Philips P9050			Philips	P9050	Philips P9050		Depot	Computer	Museum	Rom monitor		68k	MVME					192.168.42.66		MacSimski	Tlogic	1 juni 2011		
+33	Digital PDP-8f		42000010	Digital	PDP-8/f	Digital PDP-8/f	PR0300874	Depot	Minicomputer	Museum	OK		PDP8	Omnibus					192.168.42.67		MacSimski	Tlogic	1 juni 2011		Hardware_Digital_PDP-8f_picture.jpg
+34	SGI 320			SGI	320	SGI320		Depot	Computer	Museum	Onbekend		x86	PCI					192.168.42.67		MacSimski	Tlogic	1 juni 2011		
+35	Digital Alphaserver DS10			Digital	Alphaserver DS10	Alphaserver DS10		R3boot	Server	Museum	OK		AXP	PCI								Stoneshop			
+36	Digital Alphaserver DS15			Digital	Alphaserver DS15	Alphaserver DS15		Depot	Server	Museum	OK		AXP	PCI	7.3-2,OpenVMS										
+37	Motorola Powerstack			Motorola	Powerstack	Motorola Powerstack		Depot	Workstation	Museum			PPC	PCI								DND	9 augustus 2014		
+38	Digital Multia Alpha			Digital	VX40B-F2	Multia Alpha		Depot	Desktop computer	Museum			AXP	PCI								DND	9 augustus 2014		
+39	Cipher M891640			Cipher	M891640	Cipher M891640		Depot	Storage	Museum				Pertec											
+40	Digital MicroPDP 11			Digital	11C23-F	Digital MicroPDP 11	GA00475	Depot	Minicomputer	Museum			PDP11	QBus											
+41	Digital MicroVAX 4000-200			Digital	6400R-F3	Digital MicroVAX 4000/200	AY01400450	Depot	Server	Museum	OK		VAX	QBus	VMS,5.4-3										
+42	Digital MicroVAX 4000-300 (1)			Digital	MicroVAX 4000-300	Digital MicroVAX 4000-300		Depot	Server	Museum			VAX	QBus											
+43	Digital MicroVAX II			Digital	MicroVAX II	Digital MicroVAX II		Depot	Server	Museum	Voeding stuk		VAX	QBus							?	LU			
+44	Digital PDP 11/73			Digital	PDP 11/73	Digital PDP 11/73	850226383	Depot	Minicomputer	Museum			PDP11	QBus							?	LU			
+45	Digital VT103-BA			Digital	VT103-BA	Digital VT103	WF07206	Depot	Desktop computer	Museum	Defect		PDP11	QBus								DND	9 augustus 2014		
+46	PCS W8 80/0			PCS	W8 80/0	PCS W8 80/0	438.046	Depot	Computer	Museum			68k	QBus									14 februari 2020		
+47	Tektronix 4002A			Tektronix	4002A	Tektronix 4002A		Depot	Grafische terminal	Museum	Defect		Discrete logica	RS232								LU	13 juni 2013		Hardware_Tektronix_4002A_picture.jpg
+48	Digital LA50			Digital	LA50-RB	LA50	TC58284B	Depot	Printer	Hack42	Werkt			RS232											Hardware_Digital_LA50_picture.jpg
+49			42001045	M4 Data	9914D		190 20789	Depot	Storage					SCSI											
+50	Calcomp 1039			Calcomp	1039	Calcomp 1039	20208-101-000	MacSimski	Plotter		Defect		6.8k	Serieel							?	LU			
+51	Fujitsu Swallow (2)			Fujitsu	Eagle	Fujitsu Eagle		Depot	Storage	Museum	OK			SMD											
+52	Fujitsu Swallow (1)			Fujitsu	Eagle	Fujitsu Eagle		Depot	Storage	Museum				SMD											
+53	Fujitsu Swallow (3)			Fujitsu	Eagle	Fujitsu Eagle		Depot	Storage	Museum				SMD											
+54	Fujitsu Swallow (4)			Fujitsu	Eagle	Fujitsu Eagle		Depot	Storage	Museum				SMD							Bix				
+55	Fujitsu Swallow (5)			Fujitsu	Eagle	Fujitsu Eagle		Depot	Storage	Museum				SMD								FailBaitr			
+56	Digital DEC 3000 model 300X		I010003	Digital	DEC 3000 Model 300X		AY44509635	Depot	Desktop computer	Hack42	Passes diagnostics		AXP	Turbochannel	OpenVMS AXP,7.3			luggie	192.168.42.17			Stoneshop			
+57	Digital Personal DECstation 5000/25			Digital	PM30A-AA	Personal DECstation 5000/25	AY238D9060	Depot	Workstation	Museum	Onbekend		MIPS	Turbochannel							?	LU	18 september 2014		
+58	Digital Personal DECstation 5000/33			Digital	PM30B-AJ	Personal DECstation 5000/33	AY33222233	Depot	Workstation	Museum	Onbekend		MIPS	Turbochannel								Bix			
+59	Digital PDP 11/44			Digital	PDP 11/44	PDP 11/44		Depot	Minicomputer	Museum	Voeding stuk		PDP11	Unibus								DND	9 augustus 2014		
+60	Digital PDP 11/84			Digital	PDP 11/84	Digital PDP 11/84	NI11755	Depot	Minicomputer	Museum	Defect		PDP11	Unibus								DND	9 augustus 2014		
+61	Digital VAX 11/750			Digital	VAX 11/750	kremvax		Depot	Minicomputer	Museum	Needs work		VAX	Unibus								Bix			
+62	Fujitsu fi6230			Fujitsu	fi6230	Fujitsu fi6230 scanner	3261	Depot	Scanner	Hack42	OK			USB											
+63			42001060	IBM	6360		6360-4413525	Depot	Dual 8” floppy drive																
+64			42001053	Terak	8510		U100840	Depot																	
+65	IBM 029			IBM	0029 B22	29 Card Punch	55-46532P9	Depot	Card Punch	Museum	OK		Electromechanisch									LU	13 juni 2013		Hardware_IBM_029_picture.jpg
+66	Osborne (2)			Osborne	1	Osborne 1	A17009	Depot	Portable computer	Museum	Defect		Z80		CP/M							Eelco Lolkema			
+67	Osborne (1)			Osborne	1	Osborne 1	A19512	Depot	Portable computer	Museum	Not entirely well		Z80		CP/M,2.2							DND	9 augustus 2014		
+68	Teletype 14 KTR			Teletype Corporation	14-KTR	Teletype 14		Depot	Telex	Museum	OK		Electromechanisch												
+69	Tele-Tec 1440			Tec	1440	Tele-Tec 1440	3910	Depot	Terminal	Museum	Defect										Bix				
+70	HP 150 II			HP	150	HP 150		Depot	Desktop computer		OK		8086		MS-DOS										
+71	Multitron modembank			Multitron	16	Multitron		Depot	Modembank	Museum	OK		?												
+72	SGI 1600SW		42001032	SGI	1600SW	SGI 1600SW	92000497N	Depot	Monitor	Stoneshop	OK														
+73	Monroe 1710			Monroe	1710	Monroe Model 1710		Depot	Calculator	Museum	OK		Discrete elektronica									Stoneshop	8 maart 2015		
+74	HP Apollo 700			HP	1991A	HP Apollo 700	3147GI0412	Depot	Workstation	Museum	OK		PA-Risc		HP-UX										
+75	Amiga 2000 (1)	afstoten		Commodore	2000	Amiga 2000		Awesome Retro	Desktop computer	Awesome Retro			68k									Stoneshop	8 maart 2015		
+76	Amiga 2000 (2)			Commodore	2000	Amiga 2000		Awesome Retro	Desktop computer	Awesome Retro			68k									Stoneshop		08-00-2B-87-3C-7E 08-00-2B-87-3C-98	
+77	Commodore CBM 3016			Commodore	2001/16	Commodore CBM3016	1211439	Depot	Desktop computer	Museum	Defect		6502												
+78			42001021	Sail Computer	2003 07		17676	Depot	PC “Pentium 4”																
+79	Wang 2200-S1			Wang	2200-S1	Wang 2200	947024	Depot	Computer	Museum	Defect														
+80	Calcomp 2200			Calcomp	22180-02	Calcomp 2200	J7948	Depot	Input Device	Hack42	Werkt?											DND	9 augustus 2014		
+81	HP 2382A			HP	2382A	HP 2382A	2301F00983	Depot	Terminal	Museum															
+82	HP 2392A			HP	2392A	HP 2392A	2437F06464	Depot	Terminal	Museum	OK														
+83	Tandy TRS-80 Model III		42001061	Tandy/Radio Shack	26-1062	Tandy TRS-80 Model III	001255M	Depot	Desktop computer	Museum	OK				TRSDOS						Bix	LU	13 juni 2013		
+84	Atari 260ST			Atari	260ST	Atari 260ST		Depot	Homecomputer	Museum			68k								MacSimski	LU	13 juni 2013		
+85	HP 2622A			HP	2622A	HP 2622A	2343A82663	Depot	Terminal	Museum	Defect										MacSimski				
+86	HP 2627A			HP	2627A	HP 2627A	2313F00418	Depot	Terminal	Museum	Defect										Charles Petrie, MacSimski	LU	13 juni 2013		
+87	Asi286			Asi	286	ASI	?	Depot	Portable	Museum			80268									LU	3 september 2013		Hardware_Asi286_picture.jpg
+88	IBM 3192			IBM	3192	IBM 3192	5599677	Depot	Terminal	Museum	Defect										MacSimski				
+89	Sun 386i/250			Sun	386i/250	Sun 386i/250	936G0415	Depot	Workstation		Defect														
+90	3Com Etherlink III			3Com	3C589D-TP	3Com Etherlink III		Depot	Interface	Hack42											MacSimski	ING Exciting museum	12 maart 2015		
+91	Kaypro 4/83			Kaypro	4/83	Kaypro 4	78459	Depot	Portable computer	Museum			Z80		CP/M										
+92	Kaypro 4/84		42001051	Kaypro	4/84	Kaypro 4	214447	Depot	Portable computer	Museum			Z80		CP/M							Jaap Horsting			
+93	Tektronix 4027A			Tektronix	4027A	Tektronix 4027A	B032058	Depot	Grafische terminal	Museum	Defect										MacSimski	LU	18 september 2014		
+94	HP 150 (2)			HP	45611A	HP 150	2409F07391	Depot	Desktop computer	Museum	Defect		8086								Typewriters/telex				
+95	HP 150 (4)			HP	45611A	HP 150	2409F07365	Depot	Desktop computer	Museum	Defect		8086									DND	9 augustus 2014		
+96	HP 150 (3)			HP	45611B	HP 150	2431F06566	Depot	Desktop computer	Museum	Defect		8086								MacSimski, Eightdot				
+97	HP 150 (1)			HP	45611B	HP 150	3431F06568	Depot	Desktop computer		Defect											DND	9 augustus 2014		
+98			42001066	HP	45849A	150 Touchscreen II	2518A03437	Depot	Monitor													DND	9 augustus 2014		
+99	Tektronix 4951 Joystick		42000011	Tektronix	4951 Joystick	Tektronix 4951 Joystick		Depot	Input Device	Museum	OK											DND	9 augustus 2014		Hardware_Tektronix_4951_Joystick_picture.jpg
+100	Philips 5010			Philips	5010	Philips 5010		Depot	Desktop computer	Relocker															
+101	IBM 5140			IBM	5140	IBM 5140 Convertible		Depot	Laptop	Museum	Geen PSU														
+102	IBM Personal Computer Color Display			IBM	5153002	IBM color display	0895476	Depot	Monitor	Museum												DND	9 augustus 2014		
+103	IBM PC XT		42001020	IBM	5160 (PC XT)	IBM PC XT	5160 AV550076294	Depot	Desktop computer	Museum			8086		DOS							DND	9 augustus 2014		Hardware_IBM_PC_XT_picture.jpg
+104			42001000	Atari	520ST		A1 6AB 4005870	Depot	Homecomputer		Onbekend											DND	9 augustus 2014		
+105			42001001	Atari	520ST+		A1 4000149 10 1985	Depot	Homecomputer													DND	9 augustus 2014		
+106			42001002	Atari	520ST+		A1 4001268 10 1985	Depot	Homecomputer									Cezanne							
+107	IBM 5291 2			IBM	5291 2	IBM 5291	53-W3108	Depot	Terminal	Museum	?							Goya	192.168.2.247						
+108	IBM system/36			IBM	5362	System/36	44-56564	Depot	Server	Museum	Defect														
+109	Holborn systeem 6100		serial #42	Holborn	6110	Holbornsysteem 6100		Depot	Computer	Museum	OK		Z80		CP/M										
+110	Wang 700			Wang	700B	Wang 700	825482	Depot	Programmeerbare calculator	Museum	OK		Discrete elektronica												
+111	Texas Instruments SilentWriter 745			Texas Instruments	745 portable	SilentWriter 700	04746 12285	Depot	Hardcopy terminal	Museum	OK														
+112			42001037	HP	7550 PLUS		3144L07004	Depot	Plotter									IRIS	DHCP						
+113	Texas Instruments SilentWriter 765			Texas Instruments	765 portable	SilentWriter 700		Depot	Hardcopy terminal	Museum	Defect														
+114	Commodore CBM 8096-SK			Commodore	8096-SK	Commodore CBM 8096-SK	0719	Depot	Homecomputer	Museum	Defect														
+115	Apple 3.5 Drive			Apple	825-1304-A	Apple 3.5 Drive	Y810BHA	Depot	Storage	Museum	?											DND	9 augustus 2014		
+116	HP 82913A			HP	82913A	HP 82913A	2317J5323O	Depot	Monitor	Museum	OK											Mack	1 november 2019		
+117	Commodore CBM 8296			Commodore	8296	Commodore CBM 8296	0306	Depot	Homecomputer	Museum	Defect														
+118			42001052	IBM	8530-021		55-2025391	Depot													MacSimski	Scryption			
+119	HP 85 (2)			HP	85A	HP 85	2349A25144	Depot	Desktop computer	Museum	OK											DND	9 augustus 2014		
+120	HP 9000 M712/80			HP	9000 712/80	HP 9000 712/80		Depot	Workstation	Museum			PA-Risc		HPUX										
+121	Holborn 9100			Holborn	9100	Holborn 9100		Depot	Computer	Museum			Z80		HOS							DND	9 augustus 2014		
+122	Kennedy 9100			Kennedy	9100	Kennedy 9100		Depot	Storage	Museum	Defect								UUCP:..!pdp11			J. van Praag	23 maart 2010		
+123	Holborn 9120			Holborn	9120	Holborn 9120	100002	Depot	Computer	Museum	OK		Z80		HOS							DND	9 augustus 2014		Hardware_Holborn_9120_picture.jpg
+124			42001065	HP	9121D		2229A20047	Depot	2x 3.5” floppy drive													DND	9 augustus 2014		
+125	HP 9145			HP	9145	HP 9145		Depot	Storage	Museum												LU	13 juni 2013		
+126			42001064	HP	9153A		2515A02620	Depot	3.5” floppy drive													LU	18 september 2014		
+127	OCE CPT 8600			CPT	931190	OCE CPT 8600		Depot	Tekstverwerker	Museum	OK										MacSimski	Bjornl			
+128			42001062	IBM	9331 011		10-87576	Depot													MacSimski	?			
+129	HP 95LX			HP	95LX	HP 95LX	ABB3145A04886	Depot	Handheld	Museum	OK										MacSimski				
+130	Control Data 9762			Control Data	9762	Control Data 9762		Depot	Storage	Museum	Needs service										MacSimski	?			
+131	HP 9000-216			HP	9816S	HP 216	2350G12064	Depot	Computer	Museum	Defect														
+132	HP 9000/340 (1)			HP	98571	HP 9000/340	2845G04089	Depot	Workstation	Museum	OK		68k												
+133	HP 9000/340 (2)			HP	98571	HP 9000/340	2845G04090	Depot	Workstation	Museum	OK		68k												
+134	HP 9000/340 (3)		42001054	HP	98571G	HP 9000/340CH	2845G07177	Depot	Workstation	Museum	Shows POST on display, seems to want to boot		68k		HP-UX 300										
+135	Amiga 2000 (3)			Commodore	A2000	Commodore Amiga 2000	JA4024177	Awesome Retro	Homecomputer	Awesome Retro	OK		68k												
+136	Apple Graphics Tablet			Apple	A2M2007	Graphics Tablet	105945	Depot	Input Device	Hack42	?														
+137	Apple //e Monitor			Apple	A2M2010P	Apple //e Monitor	0105097	Depot	Monitor	Museum	OK										MacSimski	MacSimski			
+138	Olivetti A5			Olivetti	A5	A5		Depot	Boekhoudmachine	Museum	Defect														
+139	Apple Lisa 2/10 (1)			Apple	A6S0200P	Lisa 2/10		Thuis	Desktop computer	MacSimski	OK		68k												
+140	Apple Lisa 2/10 (2)			Apple	A6S0200P	Lisa 2/10	A4282380	Verkocht	Desktop computer	Verkocht	OK		68k		?										
+141	Apple Lisa 2/10 (3)			Apple	A6S0200P	Lisa 2/10	A3343040	Verkocht	Desktop computer	Verkocht	OK		68k		?						MacSimski				
+142	Apple ProFile			Apple	A9M0100Z	Apple ProFile	DE003696	Depot	Storage	Museum											MacSimski				
+143	Apple Imagewriter			Apple	A9M0303P	Imagewriter I	653797	Depot	Printer	Museum	OK							UTCIV1				DND	9 augustus 2014	08-00-2B-17-25-4B	
+144	Lear Siegler ADM 3A (3)			Lear Siegler	ADM 3A	Lear Siegler ADM 3A		Depot	Terminal	Museum	Werkt? Scherm vies														
+145	Lear Siegler ADM 3A (2)			Lear Siegler	ADM 3A	Lear Siegler ADM 3A		Depot	Terminal	Museum								HROVX3			Stoneshop				
+146	Lear Siegler ADM 3A (1)			Lear Siegler	ADM 3A	Lear Siegler ADM 3A		Depot	Terminal	Museum															
+147	Lear Siegler ADM 1A			Lear Siegler	ADM-1A	Lear Siegler ADM 1A		Depot	Terminal	Museum	Werkt?							?							
+148	Anita mk9			Sumlock	Anita mk9	Sumlock Anita	C/9/35463	Depot	Calculator	Museum	Ongerestaureerd		Discrete elektronica												
+149	Acorn Archimedes 410			Acorn	Archimedes 410	Acorn Archimedes 410	27-AKB40-100?976	Depot	Workstation	Museum			ARM		RiscOS										
+150	Teletype ASR43			Teletype Corporation	ASR43	ASR43		Depot	Hardcopy terminal	Museum	Werkt? Out of paper (12" pinfeed)										Stoneshop, Denz	LU	13 juni 2013		
+151	Digital BA23-A (1)			Digital	BA23-A	Digital BA23-A	AY70601315	Depot	Systeemkast	Museum											Stoneshop				
+152	Digital BA23-A (2)			Digital	BA23-A	Digital BA23-A	GA00209	Depot	Systeemkast	Museum															
+153	Acorn BBC B			Acorn	BBC B	Acorn BBC B	01-ANBOI-3008424	Depot	Homecomputer	Museum	Werkt		6502		BBC MOS			comprak							
+154	Philips Computer Monitor80			Philips	BM7513/001	Philips Computer Monitor 80	08904109598	Depot	Monitor	Museum	OK							Depot							
+155	RDI BriteLite			RDI	Britelite	RDI BriteLite		Depot	Laptop	Museum	Geen PSU		Sparc		Solaris or linux										
+156			42001047	Burroughs	C 3262		C-000495-115	Depot	Calculator																
+157	Commodore C128D (1)			Commodore	C128D	Commodore C128D	DA422337	Depot	Homecomputer	Museum	Defect?		6502												
+158	HP Surestore DLT80			HP	C5726A	HP Surestore DLT80	US93005218	Depot	Storage	Hack42															
+159	Commodore CBM 2001			Commodore	CBM 2001	Commodore CBM 2001		Depot	Desktop computer													DND	9 augustus 2014		
+160	Commodore CBM 8050			Commodore	CBM 8050	Commodore CBM 8050	WG2257	Depot	Storage	Museum	Werkt?														
+161	Commodore CBM 8250			Commodore	CBM 8250	Commodore CBM 8250	WG5367	Depot	Storage	Museum	Defect														
+162	Philips CDD522/10		42001058	Philips	CDD522/10	Philips Compact Disc Recorder	AH009432010027	Depot	Storage	Museum	OK														
+163			42001055	Chinon	CDS-430		E001935	Depot	CD-ROM/AUDIO Drive									holborn							
+164	Sharp CE-125			Sharp	CE-125	Sharp CE-125		Depot	Handheld													Scryption			
+165	SGI Challenge S (1)			SGI	Challenge S	SGI Challenge S		Depot	Workstation	Museum			MIPS								Denz, Bugblue, Macsimski	Scryption			
+166	SGI Challenge S (2)			SGI	Challenge S	SGI Challenge S		Depot	Workstation	Museum			MIPS										16 augustus 2016		
+167	C-Itoh CIT101 (1)			C-Itoh	CIT 101	CIT-101		Depot	Terminal	Museum	OK												16 augustus 2016		
+168	C-Itoh CIT101 (2)			C-Itoh	CIT 101	CIT-101		Depot	Terminal	Museum	OK														
+169			42001041	SGI	CMN B006	Indy	08006906f29d	Depot															7 mei 2014		
+170	SGI Personal Iris (1)			SGI	CMN-B001	SGI Personal Iris	E0130444	Depot	Workstation	Museum	Defect		MIPS												
+171	SGI Personal Iris (2)			SGI	CMN-B001	SGI Personal Iris	E5044086	Depot	Workstation	Museum	Defect		MIPS												
+172	SGI Indy (3)			SGI	CMN-B006	SGI Indy	0b:00:69:06:14:0f	Depot	Workstation	Museum	Defect		MIPS									DND	9 augustus 2014		
+173			42001019	SGI	CMNB003B	Iris Indigo	024-8047-006 / 35502746	Depot	Voeding																
+174	SGI Indigo2 (1)			SGI	CMNB007AF175	SGI Indigo2	08:00:69:0B:24:EF	Depot	Workstation	Museum	?		MIPS												
+175	Friden Computyper typewriter			Friden	Computyper	Friden Computyper		Depot	Typewriter	Museum	see notes		Electromechanisch												
+176	Amstrad/Schneider CPC-464			Amstrad/Schneider	CPC-464	Colour Personal Computer	196372	Depot	Homecomputer	Museum	OK		Z80		Schneider BASIC										
+177	Schneider CPC-464 (2)			Schneider	CPC-464	Schneider CPC-464	533-7631031	Depot	Homecomputer	Museum	OK		Z80		Schneider BASIC										
+178	Schneider CPC-6128 (2)			Schneider	CPC-6128	Schneider CPC-6128	5326727056	Depot	Homecomputer		Defect														
+179	Schneider CPC-6128 (1)			Schneider	CPC-6128	Schneider CPC-6128	5326727057	Depot	Homecomputer		OK		Z80												
+180	Schneider CPC-6128 (3)			Schneider	CPC-6128	Schneider CPC-6128	5326727101	Depot	Homecomputer		OK											DND	9 augustus 2014		
+181	OCE CPT 8515			OCE	CPT 8515	OCE CPT 8515		Depot	Tekstverwerker	Museum	OK											DND	9 augustus 2014		
+182			42001059	Avocent	D51S		520118903	Depot														DND	9 augustus 2014		
+183			42001057	Compaq	D51S		CZC3180SPZ	Depot														DND	9 augustus 2014		
+184	Digital DEChub 90			Digital	DEChub 90	DEChub 90		Depot	Network device	Museum	OK, production											DND	9 augustus 2014		
+185	Digital DECmate			Digital	DECmate I	Digital DECmate		Depot	Tekstverwerker	Museum			PDP8									DND	9 augustus 2014		
+186	Digital DECstation 3000			Digital	DECstation 3000	DECstation 3000		Depot	Workstation	Museum			AXP									DND	9 augustus 2014		
+187	Digital DEREP			Digital	DEREP	DEREP	AS91031904	Depot	Network device	Museum	Werkt?											DND	9 augustus 2014		
+188	Ancona Computer Monitor			Ancona	DI652/00B	Ancona Computer Monitor	TY00531000735	Depot	Monitor	Museum	OK														
+189	Schneider DMP2000 (1)			Schneider	DMP2000	Schneider DMP2000	71818	Depot	Printer	Museum	OK														
+190	Schneider DMP2000 (2)			Schneider	DMP2000	Schneider DMP2000	71822	Depot	Printer	Museum	Spareparts														
+191	Apollo DN560			Apollo	DN560	Apollo DN-560	55502149	MacSimski	Workstation	Hack42															
+192			42001023	Dynatech	DPD-8-8 Dynapad Dynapac		GK 50085	Depot	X.25 PAD																
+193	Digital DECserver 700-16			Digital	DS700-16 (DSRVW-YB)	DS700-16		Depot	Terminal Server	Museum	OK		68k		WWENG1										
+194	ICL Alfaskop			ICL	DU715	ICL Alfaskop	19307 003049	Depot	Terminal	Museum	OK														
+195			42001031	LG	E2441TX	Flatron	112NDUN81638	Depot	Monitor																
+196	Acorn Electron (1)			Acorn	Electron	Acorn Electron	07-GLAO-1009611	Depot	Homecomputer	Museum	Geen PSU		6502												
+197	Acorn Electron (2)			Acorn	Electron	Acorn Electron	07-GLAO-1012322	Depot	Homecomputer	Museum	Geen PSU		6502												
+198	Apricot F1		42001046	Apricot	F1	Apricot F1	MF067805	Depot	Desktop computer	Bix	Werkt, maar voeding heeft nieuwe filter caps nodig		8086		MS-DOS										
+199	CRDS FD211			Charles Rivers Data Systems	FD211	CRDS FD211	A1295	Depot	Storage	Museum															
+200	CRDS FD311			Charles Rivers Data Systems	FD311	CRDS FD311	A532	Depot	Storage	Museum															
+201	Digital QBus Unibus kaarten			Digital	Flip Chips	Digital Flip Chips		Depot	Parts	Museum												DND	9 augustus 2014		Hardware_Digital_QBus_Unibus_kaarten_picture.jpg
+202	Unibus Qbus VME etc. cards (sortable)			Digital	Flip Chips	Digital Flip Chips		Depot	Parts	Museum												DND	9 augustus 2014		
+203	Yodobashi Formula1			Yodobashi	Formula1	Yodobashi Formula 1		Depot	Computer	Jaybee	Operational		Z80		CP/M										
+204	Siemens T100A			Siemens	fs sk 2186/1	T100A	2U80723 / 2U79667	Home	Telex	MacSimski	OK		Mechanical, 5Bit												
+205	Casio FX-702P			Casio	FX-702P	Casio FX-702P	2B206B	Depot	Calculator	Museum	Onbekend														
+206	Apple G4 Cube			Apple	G4 Cube	Apple G4 Cube		Depot	Desktop computer	MacSimski	OK		PPC		MacOS										
+207	Barco GD33 (1)			Barco	GD33	Barco GD33		Depot	Monitor	Museum	OK														
+208	Barco GD33 (2)			Barco	GD33	Barco GD33		Depot	Monitor	Museum	OK														
+209	Target Gempower		42000009	Target	Gempower		?	Depot	Portable computer	Museum	?		x86												
+210	GRiDCase 1520			GRiD Systems Corporation	GRiDCase 1520			Depot	Laptop				80286									DND	9 augustus 2014		
+211	Schneider GT65 (3)			Schneider	GT65	Schneider GT65	28581	Depot	Monitor		OK											DND	9 augustus 2014		
+212	CRDS HD11-T (1)			Charles Rivers Data Systems	HD11-T	CRDS HD11-T	A464	Depot	Storage	Museum															
+213	HP 10C			HP	HP 10C	HP 10C	2247A02518	Depot	Calculator	Museum												J. van Praag	23 maart 2010		
+214	Atari Portfolio			Atari	HPC-004	Portfolio	K1163045449	Depot	Handheld	Museum	OK		80C88		DIP DOS,2.11							J. van Praag	23 maart 2010		
+215	Toshiba HX10			Toshiba	HX-10	Toshiba HX-10		Depot	Homecomputer	Museum			Z80		MSX						Denz	Denz	20 oktober 2015		
+216	Epson HX-20 (2)		42000005	Epson	HX-20	HX-20	016647	Depot	Portable computer	Museum	Defect		?												
+217	Epson HX-20 (1)			Epson	HX-20	Epson HX-20	015122	Depot	Portable computer	Museum	Onbekend											DND	9 augustus 2014		
+218	Apple iMac			Apple	iMac G3 Green	Apple iMac		Depot	Desktop computer	Museum	OK		PPC		MacOS,8.5							DND	9 augustus 2014		Hardware_Apple_iMac_picture.jpg
+219	SGI Indigo			SGI	Indigo	SGI Indigo		Depot	Workstation	Museum	Defect		MIPS		Irix,5.3							DND	9 augustus 2014		
+220	SGI Indigo2 (2)			SGI	Indigo²	SGI Indigo 2		Depot	Workstation	Museum	OK		MIPS		Irix,5.3										
+221	SGI Indy (1)			SGI	Indy	SGI Indy (1)		Depot	Workstation				MIPS								Stoneshop	LU	13 juni 2013		
+222	SGI Indy (2)			SGI	Indy	SGI Indy (2)		Depot	Workstation				MIPS									DND	9 augustus 2014		
+223	Digital InfoServer 150			Digital	Infoserver 150	Digital InfoServer 150		Depot	Server	Denz	OK		VAX									DND/Auke	9 augustus 2014		
+224	SGI Iris Indigo (1)			SGI	Iris Indigo	SGI Iris Indigo		Depot	Workstation	Museum			MIPS												
+225	SGI Iris Indigo (2)			SGI	Iris Indigo	SGI Iris Indigo		Depot	Workstation	Museum			MIPS									DND/Auke	9 augustus 2014		
+226	Sun JavaStation (2)			Sun	Javastation	Carbon	823K0021	Depot	Thin Client	Museum	Onbekend											DND/Auke	9 augustus 2014		
+227	Sun JavaStation Brick			Sun	Javastation-1 "Mr.Coffee"	Sun JavaStation-1	711C1494	Depot	Thin Client	Museum	OK		MicroSparc II												
+228	Sun JavaStation (1)			Sun	JavaStation-10 "Krups"	Sun JavaStation-10		Depot	Thin Client	Museum															
+229	NEC Multisync 5FG			NEC	JC-1741UMB	NEC Multisync 5FG	27D00509A	Depot	Monitor	Museum	OK											J. van Praag	23 maart 2010		
+230	GNT 4601			GNT Automatic A/S	KDVK 12621	GNT 4601	481401	Depot	Card Punch	Hack42	Werkt!										MacSimski	DND	9 augustus 2014		
+231			42001003	Atari	Keyboard		A1 3008886 81	Depot	Keyboard												?	LU			
+232			42001004	Atari	Keyboard		A1 3003319 7A	Depot	Keyboard													DND	9 augustus 2014		
+233			42001005	Atari	Keyboard		A1 3001624 78	Depot	Keyboard													DND	9 augustus 2014		
+234			42001006	Atari	Keyboard		A1 3017078 95	MacSimski	Keyboard																
+235	Digital Correspondent (1)			Digital	LA12-DB	Digital Correspondent		Depot	Hardcopy terminal	Museum	Voeding stoek?														
+236	Digital Correspondent (2)			Digital	LA12-DB	Digital Correspondent	PN69467	Depot	Hardcopy terminal	Museum	Werkt?										Stoneshop				
+237	Digital DECwriter III (LA120) (1)			Digital	LA120	Digital DECwriter III (LA120)		Depot	Hardcopy terminal	Museum	Gedemonteerd										Stoneshop				
+238	Digital DECwriter III (LA120) (2)			Digital	LA120	Digital DECwriter III		Depot	Hardcopy terminal	Museum												DND	9 augustus 2014		Hardware_Digital_DECwriter_III_%28LA120%29_%282%29_picture.jpg
+239	Compaq LTE			Compaq	LTE	Compaq LTE		Depot	Laptop	Museum	?		x86												
+240	Apple 400k Drive			Apple	M0130	Apple 400k Drive	Y4425PPM0130	Depot	Storage	Museum	?											Gmc			
+241	Olivetti M111			Olivetti	M111	Olivetti M111		Depot	Portable computer	Museum												LU	13 juni 2013		
+242	Apple Macintosh Portable			Apple	M5126	Macintosh Portable		Depot	Laptop	Museum			68k		7.1,MacOS						Denz				
+243	Apple Macintosh Performa 5300			Apple	Macintosh Performa 5300	Macintosh Performa 5300		Awesome Retro	Desktop computer	Awesome Retro	OK		PPC		7.5.1 NL,MacOS										
+244			42001012	Atari	Mega ST2		A1 79 4001037	Depot	Desktop computer		OK											DND	9 augustus 2014		
+245			42001011	Atari	Mega ST2 UK		A1 81 3000889M	Depot	Desktop computer		Defect, geen beeld														
+246			42001010	Atari	Mega ST2 UK		A1 7A 3000504	MacSimski	Desktop computer		OK														
+247	Apple Newton Messagepad 130			Apple	Messagepad 130	Messagepad 130		Depot	Handheld	Museum	OK		RISC		2.0,Newton OS							DND	9 augustus 2014		
+248			42001048	Micropolis	Microdisk LT		geen	Depot														DND	9 augustus 2014		
+249	Digital MicroVAX 2000			Digital	MicroVAX 2000	MicroVAX 2000		Depot	Computer	Museum	Werkt, moet gewist en opnieuw geinstalleerd worden		VAX		VMS,5.4-3										
+250	Digital MicroVAX 3100 (1)			Digital	MicroVAX 3100	MicroVAX 3100		Depot	Server	Museum	Onbekend		VAX		OpenVMS						Stoneshop	DND	9 augustus 2014		
+251	Digital MicroVAX 3100 (2)			Digital	MicroVAX 3100	MIcroVAX 3100		Depot	Server	Museum	Werkt, moet gewist en opnieuw geinstalleerd worden		VAX		OpenVMS,7.2						Stoneshop	LU	13 juni 2013		
+252	Osborne Model II			Osborne	Model II	Osborne Model II	010331	Depot	Portable computer	Museum	Defect										Denz				
+253	Multitech MPF-III			Multitech	MPF-III	Multitech MPF-III		Depot	Computer	Museum	OK		6502 & Z80		Apple DOS 3.3, CP/M							DND	9 augustus 2014		
+254	Digital MUXserver 90			Digital	MUXserver 90	MUXserver 90		Depot	Network device	Museum	OK, production											DND	9 augustus 2014		
+255	Sharp MZ-700			Sharp	MZ-700	MZ-700	45025096	Koen	Desktop computer	Museum	Onbekend		MZ-80K									DND	9 augustus 2014		
+256			42001063	NeXT	N1000A	NeXTcube	ABA0001903	Depot														DND	9 augustus 2014		
+257	NeXTStation (2)			NeXT	N1200	NextStation TurboColor	ABC0014066	Depot	Workstation	MacSimski	OK		68k		Nextstep,3.3							DND	9 augustus 2014		
+258	NeXTStation Color (1)			NeXT	N1200	NextStation Color	ABC0006227	Depot	Workstation	MacSimski	OK		68k		Nextstep,3.3							DND	9 augustus 2014		
+259	NeXTStation TurboColor (2)			NeXT	N1200	NextStation TurboColor	ABC0051217	Depot	Workstation	MacSimski	OK		68k		Nextstep,3.3							DND	9 augustus 2014		
+260			42001043	NeXT	N1200	NeXTstation Color	ABC0014033	Depot														DND	9 augustus 2014		
+261	NeXT Laserprinter			NeXT	N2000	NeXT Laserprinter	AAC0018040	Depot	Printer	MacSimski	OK											J. van Praag	23 maart 2010		
+262			42001029	NeXT	N4005A	MegaPixel 21-inch Color Display	ADB9200776	Depot	Monitor													DND	9 augustus 2014		
+263	NeXTcube			NeXT	NeXTcube	NeXTcube		Depot	Computer	Stoneshop	OK		68k		NeXTStep						Stoneshop	DND	9 augustus 2014		
+264	NeXTStation (1)			NeXT	NeXTstation	NeXTstation		Depot	Workstation	Museum	Geen PSU		68k		NeXTStep						Denz, Stoneshop	DND	9 augustus 2014		
+265	NSLU			LinkSys	NSLU 2	NSLU 2		Depot	Computer	Hack42			ARM									DND	9 augustus 2014		
+266	SGI O2		42001034	SGI	O2 / CMN B014ANF225	SGI O2	3862A570	Depot	Workstation	Stoneshop	OK		MIPS		6.5,Irix							DND	9 augustus 2014		Hardware_SGI_O2_picture.jpg
+267	IBM Office System 6/420			IBM	Office System 6/420	6441	5324522	Depot	Tekstverwerker	Hack42	OK											DND	9 augustus 2014		
+268	ICL OPD		42001035	ICL-Sinclair	One Per Desktop	OPD	008601/02 085/005219	Depot	Desktop computer	Hack42	OK		68k		Basic Functional Software							DND	9 augustus 2014		
+269	SGI Origin 200 (1)			SGI	Origin 200	SGI Origin 200 (1)		Depot	Server	Museum	Onbekend		MIPS		Irix,6.5										
+270	SGI Origin 200 (2)			SGI	Origin 200	SGI Origin 200 (2)		Depot	Server	Museum	Onbekend		MIPS		Irix,6.5										
+271	SGI Origin 2000			SGI	Origin 2000	Origin 2000		Depot	Server	Hack42	OK		MIPS		IRIX						Stoneshop	DND/Auke	9 augustus 2014		
+272	Philips P2000			Philips	P2000	Philips P2000		Depot	Homecomputer	Museum												DND	9 augustus 2014		
+273	IBM RT 6150 (2)			IBM	PC RT 6150	IBM PC RT 6150	53-11194	Depot	Workstation	Museum	Defect														
+274	IBM RT 6150 (1)			IBM	PC RT 6150	IBM PC RT 6150	53-13453	Depot	Workstation		Defect														
+275	Sharp PC-7100			Sharp	PC-7100	Sharp PC-7100	30100243	Depot	Portable computer	Museum	OK		8086		MS-DOS,3.3 NL							DND	9 augustus 2014		
+276	Wang PC-s1-3			Wang	PC-S1-3	Wang PC-S1-3	?	Depot	Desktop computer	Museum	OK. HD stiction		x86									DND	9 augustus 2004		
+277	Digital Rainbow			Digital	PC100-B3	Rainbow	ZG06787	Depot	Desktop computer	Museum	Onbekend														
+278	Digital DECmate III (2)			Digital	PC238-AB	DECmate III	TA22513	Depot	Tekstverwerker	Museum	?		Harris 6120 8Mhz								Stoneshop	LU	13 juni 2013		
+279	Digital DECmate III (1)			Digital	PC238-AB	DECmate III	AY64507356	Depot	Tekstverwerker	Museum	OK										Stoneshop	DND	9 augustus 2014		
+280	Sharp PC4500			Sharp	PC4500	Sharp PC4500		Depot	Laptop	Museum	OK		x86		MS-DOS						Stoneshop	DND	9 augustus 2014		
+281			42001017	Digital	PC500B3		AY72101480	Depot	Terminal												Stoneshop	DND	9 augustus 2014		
+282	Olivetti AT&T PC 7300		42001036	Olivetti AT&T	PC7300	AT&T PC7300	370429020 000809	Depot	Desktop computer	Museum	Schoongemaakt, Demonstrabel		68k		AT&T Unix,3						Stoneshop	DND	9 augustus 2014		Hardware_Olivetti_AT%26T_PC_7300_picture.jpg
+283	Digital DEC3000 400			Digital	PE40A-A9	DEC3000 400	AY33221334	Depot	Workstation	Museum	Onbekend		AXP								Denz	LU Wageningen			
+284	Comterm Polytel			Comterm	Polytel PT200	PolyTel	15334	Depot	Terminal	Museum															
+285			42001024	Livingston Enterprises Inc.	PortMaster 2e / PM2E		1B14432	Depot	Communications Server													DND	9 augustus 2014		
+286			42001025	Livingston Enterprises Inc.	PortMaster 2e / PM2Ei		1N01218	Depot	Communications Server													DND	9 augustus 2014		
+287			42001027	Livingston Enterprises Inc.	PortMaster ISDN Office Router (OR-ST)		1K01704	Depot														DND	9 augustus 2014		
+288			42001026	Livingston Enterprises Inc.	PortMaster Sychronous Office Router (OR-HS)		1J00399	Depot														DND	9 augustus 2014		
+289			42001028	Livingston Enterprises Inc.	PortMaster Sychronous Office Router (OR-LS)		1L03283	Depot														DND	9 augustus 2014		
+290			42001007	Atari	Power brick		S02501479B2	Depot	Voeding																
+291			42001008	Atari	Power brick		Unreadable	Depot	Voeding																
+292	Apple Powerbook 160			Apple	Powerbook160	Apple Powerbook160		Depot	Laptop	Museum	Defect		68k		MacOS,7.0							DND	9 augustus 2014		
+293	Apple Powerbook 165			Apple	Powerbook165	Apple Powerbook165		Depot	Laptop	Museum	OK		68k		MacOS										
+294	IBM PowerPC 7248			IBM	PowerPC 7248	IBM PowerPC 7248		Depot	Workstation	Museum			PPC												
+295	Amstrad PPC640 (1)			Amstrad	PPC640	Amstrad PPC640	532-8726096	Depot	Portable computer	Museum	OK		8086		MS-DOS,3.3						MacSimski	DND	9 augustus 2014		
+296	Amstrad PPC640 (2)			Amstrad	PPC640	Amstrad PPC640	532-8725866	Depot	Portable computer				8086								MacSimski	DND	9 augustus 2014		
+297	Slipstream Professional X100			Slipstream	Professional X100	Slipstream Professional X100	?	Depot	Monitor	Museum	OK										MacSimski	DND	9 augustus 2014		
+298	Olivetti Programma 101			Olivetti	Programma 101	Programma 101		Depot	Programmeerbare calculator	Museum	Onder behandeling door MacSimski		Discrete elektronica												
+299	Epson PX-8 (1)			Epson	PX-8	Geneva	014564	Depot	Laptop	Museum	OK		Z80		CP/M,-80										
+300	Epson PX-8 (2)			Epson	PX-8	Geneva		Depot	Laptop	Museum	OK		Z80		CP/M,-80						?	LU			
+301	Sinclair QL			Sinclair	QL	Sinclair QL	D13-049208	Depot	Homecomputer	MacSimski			68k									DND	9 augustus 2014		
+302	Olivetti Quaderno			Olivetti	Quaderno	Olivetti Quaderno		Depot	Handheld	Museum															
+303	Digital RL02 (1)			Digital	RL02-A	Digital RL02	GA04054	Depot	Storage	Museum															
+304	Digital RL02 (2)			Digital	RL02-A	Digital RL02	GA04136	Depot	Storage	Museum															
+305	THT Ro204 (1)			THT	Ro204	THT Ro204		Depot	Storage	Museum															
+306	THT Ro204 (2)			THT	Ro204	THT Ro204		Depot	Storage	Museum															
+307	THT Ro204 (3)			THT	Ro204	THT Ro204		Depot	Storage	Museum											?	LU	18 september 2014		
+308	THT Ro204 (4)			THT	Ro204	THT Ro204		Depot	Storage	Museum															
+309	IBM RS6000 E20			IBM	RS6000 E20	IBM RS6000 E20		Depot	Server	Museum			PPC		AIX							DND	9 augustus 2014		
+310	IBM RS6000 F30			IBM	RS6000 F30	IBM RS6000 F30		Depot	Server	Museum			PPC		AIX										
+311	IBM RS6000-150			IBM	RS6000-150	IBM RS6000-150		Depot	Workstation	Museum			PPC												
+312	Toshiba Satellite 100CS			Toshiba	Satellite 100CS	Toshiba Satellite 100CS		Depot	Laptop	Museum			x86									DND	9 augustus 2014		Hardware_Toshiba_Satellite_100CS_picture.jpg
+313	Atari SC1224			Atari	SC1224	Atari SC1224	N1834037312	Depot	Monitor	Museum	?											DND	9 augustus 2014		
+314	Sony SDX-D700C			Sony	SDX-D700C	Sony SDX-D700C		Depot	Storage																
+315			42001044	Digital	SEACT-AX	Infoserver 150	AY225A2119	Depot	Server	Denz															
+316	IBM Selectric			IBM	Selectric 6705	IBM Selectric II	277154	Depot	Typewriter	Museum	OK		Electromechanisch								Het Museum		1 april 2013		
+317	Psion Series 7 (3)			Psion	Series	Psion Series 7		Depot	Handheld	Museum	Defect		ARM		EPOC							DND	9 augustus 2014		
+318	Psion Series 7 (2)			Psion	Series 7	Psion Series 7		Depot	Handheld	Museum	OK		ARM		EPOC							DND	9 augustus 2014		
+319	Psion Series 7 (1)			Psion	Series 7	Psion Series 7	JBDC810092	Depot	Handheld				ARM		EPOC							DND	9 augustus 2014		
+320	Atari SH205			Atari	SH205	Atari SH205	A17A4000523	Depot	Storage	Museum	Defect?											J. van Praag	23 maart 2010		
+321	Compaq SLT286 (1)			Compaq	SLT286		8102HU4F0104	Depot	Portable computer	Museum	?		80286												
+322	Compaq SLT286 (2)		42000004	Compaq	SLT286		6941HU3H0642	Depot	Portable computer	Museum	?		80286												
+323			42001015	Atari	SM124		N1510411966	Depot	Monitor		Geen beeld														
+324			42001013	Atari	SM124		N1510417816	Depot	Monitor		Wazig, rare geluiden														
+325			42001014	Atari	SM124		N1834299889	MacSimski	Monitor		Werkt, scherp, wobbelt														
+326			42001018	Atari	SM124		N1894392537	Depot	Monitor															00:C0:05:01:80:E2	
+327	Atari SM125			Atari	SM125	Atari SM125	T1684000984	Depot	Monitor	Museum														00:C0:05:01:6A:83	
+328			42001016	Atari	SM125		T1684000664	Depot	Monitor		OK														
+329			42001042	Madge	SmartRAM Plus		155-650-05 E80518 F29K	Depot	Hub/switch RJ45																
+330	Exidy Sorcerer (3)			Exidy Corporation	Sorcerer	Exidy Sorcerer		Depot	Desktop computer	Museum															
+331	Sun SparcStation IPX			Sun	SparcStation IPX	Sun SparcStation IPX		Depot	Workstation	Museum			Sparc												
+332			42001038	Friden	SPD		94034	Depot	Teleprinter																
+333	Sinclair Spectrum			Sinclair	Spectrum	Sinclair Spectrum		Depot	Homecomputer				Z80												
+334	Texas Instruments SR-51-II			Texas Instruments	SR-51-II	SR-51-II	484917	Depot	Calculator	Museum	OK											DND	9 augustus 2014		
+335	Sunblade 100			Sun	Sunblade 100	Sunblade 100		Depot	Workstation	Museum															
+336	HP SureStore Optical 401x			HP	SureStore Optical 401x	HP SureStore Optical 401x		Depot	Storage	Museum															
+337	Friden Computyper SW10			Friden	SW10	Friden Computyper		Depot	Calculator	Museum			Electromechanisch												
+338	Twelex			Siemens	T1000	PTT Telescript 12		Lounge	Telex	Hack42	OK														
+339	Toshiba T1200			Toshiba	T1200	Toshiba T1200		Depot	Laptop	Museum	Defect		8086		MS-DOS						MacSimski	LU	13 juni 2013		
+340	Siemens T37i			Siemens	T37i	Siemens T37i Telex		Depot	Telex	Macsimski	OK														
+341	Tandberg TDC3000			Tandberg	TDC3000	Tandberg TDC3000		Depot	Storage	Museum											MacSimski				
+342	Tandberg TDC3820 (1)			Tandberg	TDC3820	Tandberg TDC3820	40360029	Depot	Storage	Hack42															
+343	Tandberg TDC3820 (2)			Tandberg	TDC3820	Tandberg TDC3820	40367817	Depot	Storage	Hack42															
+344	THT Terminal			THT	Terminal	Terminal	56-3-109	Depot	Terminal	Museum	Werkt min of meer											DND	9 augustus 2014		
+345	Adler Tippa			Adler	Tippa	Adler Tippa		Depot	Typewriter	Museum	OK														
+346	Husky Titan		42000002	Husky computer LTD.	Titan	Husky Titan	0001094	Depot	Handheld	Museum	Accu dood											DND	9 augustus 2014		
+347	Olimarck TOP 15			Olimarck	TOP 15	Olimarck TOP 15		Depot	Portable computer	Museum												DND	9 augustus 2014		
+348	TRS-80 MC-10			Tandy Corporation	TRS-80 MC-10	Micro Color Computer		Depot	Homecomputer	Museum	Werkt		Motorola MC6803												Hardware_TRS-80_MC-10_picture.jpg
+349	Tandy TRS-80 Model 100			Tandy/Radio Shack	TRS-80 Model 100	Tandy TRS-80 Model 100	401300833	Depot	Handheld	Museum	OK														
+350	Tandy TRS-80 Model 102 (2)			Tandy/Radio Shack	TRS-80 Model 102	Tandy TRS-80 Model 102	907400404	Depot	Handheld	Museum	Defect											DND	9 augustus 2014		
+351	Tandy TRS-80 Model 102 (1)			Tandy/Radio Shack	TRS-80 Model 102	Tandy TRS-80 Model 102	603400743	Depot	Handheld	Museum	OK											DND	9 augustus 2014		
+352	Tandy TRS-80 Model 200			Tandy/Radio Shack	TRS-80 Model 200	Tandy	503400255	Depot	Laptop	Museum	OK		8085									DND	9 augustus 2014		
+353	Digital TS05			Digital	TS05	Digital TS05		Depot	Storage	Museum	OK											DND	9 augustus 2014		
+354	Digital TU80			Digital	TU80	Digital TU80		Depot	Storage	Museum	Fails selftest														
+355	Sun Ultra 30			Sun	Ultra 30	Sun Ultra 30		Depot	Workstation				Sparc												
+356	Digital VAXstation 2000			Digital	VAXstation 2000	Digital VAXstation 2000		Depot	Workstation	Museum			VAX												
+357	Philips VG-8010			Philips	VG-8010	Philips VG-8010	NSF0150120878	Depot	Homecomputer	Museum			Z80		MSX										
+358	Digital GiGi (1)			Digital	VK100	GiGi		Depot	Grafische terminal	Museum	OK														
+359	Digital GiGi (2)			Digital	VK100-AB	Digital GiGi	WF10531	Depot	Grafische terminal	Museum	Defect										Mechanica				
+360	Digital GiGi (3)			Digital	VK100-AB	Digital GiGi	WF10649	Depot	Grafische terminal	Museum	Defect										MacSimski, Stoneshop, Eightdot, Bugblue				
+361	Digital VR201			Digital	VR201	Digital VR201	SA72960364	Depot	Monitor	Museum	?											DND	9 augustus 2014		
+362	Digital VR241 (2)			Digital	VR241-A	Digital VR241	Y6LB4516	Depot	Monitor	Museum	Defect														
+363	Digital VR241 (1)			Digital	VR241-A	Digital VR241	Y5J076706	Depot	Monitor	Museum	OK											DND	9 augustus 2014		
+364	Digital MicroVAX II/RC			Digital	VS21V-M3	Digital VAXstation II/RC	GA00293	Depot	Workstation	Museum															
+365	Digital VT240 (2)			Digital	VS240-A	Digital VT240	AB43300YJ8	Depot	Grafische terminal	Museum	Defect														
+366	Digital VT240 (1)			Digital	VS240-C	Digital VT240	AB52000LQ3	Depot	Grafische terminal	Museum	OK														
+367	Digital VT100			Digital	VT100	VT100		Depot	Terminal	Museum	OK														
+368	Digital VT100-AB			Digital	VT100-AB	Digital VT100	PN64136	Depot	Terminal	Museum	Defect														
+369	Digital VT220			Digital	VT220-E3	Digital VT220	TA702P1914	Depot	Terminal	Museum	OK														
+370	Digital VT320 (2)			Digital	VT320-A3	Digital VT320	HK90754758	Depot	Terminal	Museum	OK										Denz	Haarlem			
+371	Digital VT320 (3)			Digital	VT320-A3	VT320	SA00182557	Depot	Terminal	Museum	OK														
+372	Digital VT320 (1)			Digital	VT320-A3	Digital VT320	SA92834760	Depot	Terminal	Museum															
+373	Digital VT330			Digital	VT330	Digital VT330	TA83006575	Depot	Terminal	Museum	Defect														
+374	Digital VT420			Digital	VT420	VT420		Depot	Terminal	Museum	OK											DND	9 augustus 2014		
+375	Digital VT510			Digital	VT510-A6	Digital VT510	TA41718064	Depot	Terminal	Museum	OK											DND	9 augustus 2014		
+376	Digital VT55			Digital	VT55-FB	Digital VT55	WF07443	Depot	Terminal	Museum	Defect											LUW			Hardware_Digital_VT55_picture.jpg
+377	Digital VXT2000 (2)			Digital	VX17A-A9	Digital VXT2000	TA32000212	Depot	Grafische terminal	Museum	?										Mechanica				
+378	Digital VXT2000 (1)			Digital	VXT2000	Digital VXT2000		Depot	Grafische terminal	Museum															
+379			42001009	GP Industrial Electronics Ltd.	XR16 Production Programmer		15617	Depot	EPROM Programmer												MacSimski	DND			
+380	IBM Xseries 232			IBM	Xseries 232	IBM Xseries 232		Depot	Server	Museum			PPC									LU			
+381	DepotPC		42001022	HP	XW4400	Depot	CZC7084N0K	Depot	Workstation	Hack42	Productie		x86		Ubuntu							DND			
+382			42001040	HP	xw6600	Workstation xw6600	CZC9193MCH	Depot	PC																
+383	Sinclair ZX81			Sinclair	ZX81	Sinclair ZX81		Depot	Homecomputer	Museum			Z80									DND	9 augustus 2014		
+384	Videotex terminal			{{{Manufacturer}}}		Videotex Terminal		Depot	Terminal						Embedded							DND	9 augustus 2014		
+385	Apple iMac Graphite			Apple		iMac Graphite		Depot	Desktop computer	Museum	OK		PPC		MacOS							DND	9 augustus 2014		
+386				Apricot F1 monitor				Depot	Monitor													DND	9 augustus 2014		
+387			42001030	HP			07910-69031 2200 03964	Depot	Disk													DND	9 augustus 2014		
+388	Kangaroo			Kangaroo		Kangaroo		Depot	Portable computer	Museum	OK		8086		MS-DOS,3.21							LU	13 juni 2013		
