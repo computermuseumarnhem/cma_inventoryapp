@@ -12,7 +12,7 @@
         <th>Serial</th>
     </tr>
     {% for item in items %}
-    <tr>
+    <tr class="clickable-row" data-href="{{ url_for('show_item', id=item.id) }}">
         <td><a href="{{ url_for('show_item', id=item.id) }}">{{ item.id }}</a></td>
         <td>{{ item.label if item.label else '' }}</td>
         <td>{{ item.get_name() }}</td>
@@ -26,3 +26,4 @@
 <p>No items found</p>
 {% endif %}
 {% endblock  %}
+

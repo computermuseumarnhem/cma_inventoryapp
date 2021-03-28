@@ -1,5 +1,5 @@
 from app import app, db
-from app.models import Item, Picture
+from app.models import Item, Picture, User
 
 @app.shell_context_processor
 def make_shell_context():
@@ -7,4 +7,5 @@ def make_shell_context():
         'db': db,
         'Item': Item,
         'Picture': Picture,
+        'User': User,
     }

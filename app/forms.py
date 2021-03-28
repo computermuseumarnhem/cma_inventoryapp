@@ -1,11 +1,9 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, TextAreaField, SubmitField, IntegerField
-#from wtforms.validators import ValidationError, DataRequired
+from wtforms import StringField, TextAreaField, SubmitField, IntegerField, PasswordField, BooleanField
+from wtforms.validators import ValidationError, DataRequired, Email, EqualTo
 
-def render_kw(field):
-    if field.render_kw is None:
-        field.render_kw = {}
-    return field.render_kw        
+from app.models import User
+
 
 class EditItemForm(FlaskForm):
     id = IntegerField('ID', render_kw={'readonly': True})
@@ -18,14 +16,45 @@ class EditItemForm(FlaskForm):
     description = TextAreaField('Description')
     submit = SubmitField('Save')
 
-    def __init__(self, readonly=False, *args, **kwargs):
-        super(EditItemForm, self).__init__(*args, **kwargs)
-        render_kw(self.name)['readonly'] = readonly
-        render_kw(self.label)['readonly'] = readonly
-        render_kw(self.manufacturer)['readonly'] = readonly
-        render_kw(self.model)['readonly'] = readonly
-        render_kw(self.serial)['readonly'] = readonly
-        render_kw(self.wikilink)['readonly'] = readonly
-        render_kw(self.description)['readonly'] = readonly
-        if readonly:
-            self.submit.label.text = 'Edit'
+
+class ShowItemForm(FlaskForm):
+    id = IntegerField('ID', render_kw={'readonly': True})
+    name = StringField('Name', render_kw={'readonly': True})
+    label = StringField('Label', render_kw={'readonly': True})
+    manufacturer = StringField('Manufacturer', render_kw={'readonly': True})
+    model = StringField('Model', render_kw={'readonly': True})
+    serial = StringField('Serial no', render_kw={'readonly': True})
+    wikilink = StringField('Hack42 wiki', render_kw={'readonly': True})
+    description = TextAreaField('Description', render_kw={'readonly': True})
+    submit = SubmitField('Edit')
+
+
+class LoginForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    remember_me = BooleanField('Remember me')
+    submit = SubmitField('Log in')
+
+
+class RegistrationForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    password2 = PasswordField('Repeat Password', validators=[DataRequired(), EqualTo('password')])
+    submit = SubmitField('Register')
+
+    def validate_username(self, username):
+        user = User.query.filter_by(username=username.data).first()
+        if user is not None:
+            raise ValidationError('Please use a different username.')
+
+class ResetPasswordRequestForm(FlaskForm):
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    submit = SubmitField('Request password reset')
+
+
+class ResetPasswordForm(FlaskForm):
+    password = PasswordField('Password', validators=[DataRequired()])
+    password2 = PasswordField(
+        'Repeat Password', validators=[DataRequired(), EqualTo('password')])
+    submit = SubmitField('Request Password Reset')
