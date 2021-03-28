@@ -4,21 +4,21 @@
 {% if items %}
 <table class="table table-hover">
     <tr>
-        <th>ID</th>
         <th>Label</th>
         <th>Name</th>
         <th>Manufacturer</th>
         <th>Model</th>
         <th>Serial</th>
+        <th>Category</th>
     </tr>
     {% for item in items %}
     <tr class="clickable-row" data-href="{{ url_for('show_item', id=item.id) }}">
-        <td><a href="{{ url_for('show_item', id=item.id) }}">{{ item.id }}</a></td>
-        <td>{{ item.label if item.label else '' }}</td>
+        <td><a href="{{ url_for('show_item', id=item.id) }}">{{ item.label if item.label else '' }}</a></td>
         <td>{{ item.get_name() }}</td>
         <td>{{ item.manufacturer if item.manufacturer else '' }}</td>
         <td>{{ item.model if item.model else '' }}</td>
         <td>{{ item.serial if item.serial else '' }}</td>
+        <td>{{ item.category if item.category else '' }}</td>
     </tr>
     {% endfor %}
 </table>

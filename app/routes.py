@@ -28,9 +28,10 @@ def show_item(id):
     if form.validate_on_submit():
         return redirect(url_for('edit_item', id=item.id))
 
-    form.id.data = item.id
+    # form.id.data = item.id
     form.name.data = item.name
     form.label.data = item.label
+    form.category.data = item.category
     form.manufacturer.data = item.manufacturer
     form.model.data = item.model
     form.serial.data = item.serial
@@ -46,7 +47,8 @@ def edit_item(id):
     form = EditItemForm()
     if form.validate_on_submit():
         item.name = form.name.data
-        item.label = form.label.data
+        item.label = form.label.data if form.label.data else None
+        item.category = form.category.data
         item.manufacturer = form.manufacturer.data
         item.model = form.model.data
         item.serial = form.serial.data
@@ -56,9 +58,10 @@ def edit_item(id):
         flash("Changes are saved")
         return redirect(url_for('show_item', id=item.id))
     elif request.method == 'GET':
-        form.id.data = item.id
+        # form.id.data = item.id
         form.name.data = item.name
         form.label.data = item.label
+        form.category.data = item.category
         form.manufacturer.data = item.manufacturer
         form.model.data = item.model
         form.serial.data = item.serial

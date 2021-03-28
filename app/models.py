@@ -19,6 +19,7 @@ class Item(db.Model):
     model = db.Column(db.String(50), nullable=True)
     serial = db.Column(db.String(50), nullable=True)
     description = db.Column(db.Text(), nullable=True)
+    category = db.Column(db.String(50), nullable=True)
 
     wikilink = db.Column(db.String(250), nullable=True)
     thumbnail = db.Column(db.Integer, db.ForeignKey('picture.id'), nullable=True)

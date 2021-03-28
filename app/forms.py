@@ -2,13 +2,14 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, TextAreaField, SubmitField, IntegerField, PasswordField, BooleanField
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo
 
-from app.models import User
+from app.models import User, Item
 
 
 class EditItemForm(FlaskForm):
-    id = IntegerField('ID', render_kw={'readonly': True})
+    # id = IntegerField('ID', render_kw={'readonly': True})
     name = StringField('Name')
     label = StringField('Label')
+    category = StringField('Category')
     manufacturer = StringField('Manufacturer')
     model = StringField('Model')
     serial = StringField('Serial no')
@@ -16,11 +17,18 @@ class EditItemForm(FlaskForm):
     description = TextAreaField('Description')
     submit = SubmitField('Save')
 
+    def validate_label(self, label):
+        if label.data:
+            item = Item.query.filter_by(label=label.data).first()
+            if item is not None:
+                raise ValidationError('Label is not unique. Please use another.')
+
 
 class ShowItemForm(FlaskForm):
-    id = IntegerField('ID', render_kw={'readonly': True})
+    # id = IntegerField('ID', render_kw={'readonly': True})
     name = StringField('Name', render_kw={'readonly': True})
     label = StringField('Label', render_kw={'readonly': True})
+    category = StringField('Category', render_kw={'readonly': True})
     manufacturer = StringField('Manufacturer', render_kw={'readonly': True})
     model = StringField('Model', render_kw={'readonly': True})
     serial = StringField('Serial no', render_kw={'readonly': True})
