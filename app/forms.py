@@ -16,6 +16,7 @@ class EditItemForm(FlaskForm):
     wikilink = StringField('Hack42 wiki')
     description = TextAreaField('Description')
     submit = SubmitField('Save')
+    cancel = SubmitField('Cancel', render_kw={'formnovalidate': True})
 
     def validate_label(self, label):
         if label.data:

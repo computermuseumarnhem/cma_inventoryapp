@@ -45,6 +45,8 @@ def show_item(id):
 def edit_item(id):
     item = Item.query.get_or_404(id)
     form = EditItemForm()
+    if form.cancel.data:
+        return redirect(url_for('show_item', id=item.id))
     if form.validate_on_submit():
         item.name = form.name.data
         item.label = form.label.data if form.label.data else None
