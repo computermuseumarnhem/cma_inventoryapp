@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "cma_inventoryapp",
+            "database": "${workspaceFolder:cma_inventoryapp}/app.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

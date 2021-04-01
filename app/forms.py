@@ -13,13 +13,16 @@ class EditItemForm(FlaskForm):
     manufacturer = StringField('Manufacturer')
     model = StringField('Model')
     serial = StringField('Serial no')
-    wikilink = StringField('Hack42 wiki')
     description = TextAreaField('Description')
     submit = SubmitField('Save')
     cancel = SubmitField('Cancel', render_kw={'formnovalidate': True})
 
+    def __init__(self, original_label, *args, **kwargs):
+        super(EditItemForm, self).__init__(*args, **kwargs)
+        self.original_label = original_label
+
     def validate_label(self, label):
-        if label.data:
+        if label.data != self.original_label:
             item = Item.query.filter_by(label=label.data).first()
             if item is not None:
                 raise ValidationError('Label is not unique. Please use another.')

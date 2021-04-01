@@ -1,9 +1,11 @@
+from datetime import datetime
+
 from flask import render_template, flash, redirect, url_for, request
 from flask_login import current_user, login_user, logout_user, login_required
 from werkzeug.urls import url_parse
 
 from app import app, db
-from app.models import Item, User
+from app.models import Item, User, Picture
 from app.forms import EditItemForm, ShowItemForm, LoginForm, RegistrationForm, ResetPasswordForm, ResetPasswordRequestForm
 from app.email import send_password_reset_email
 
@@ -35,7 +37,6 @@ def show_item(id):
     form.manufacturer.data = item.manufacturer
     form.model.data = item.model
     form.serial.data = item.serial
-    form.wikilink.data = item.wikilink
     form.description.data = item.description
     return render_template('edititem.html', title=item.get_name(), item=item, form=form)
 
@@ -44,7 +45,7 @@ def show_item(id):
 @login_required
 def edit_item(id):
     item = Item.query.get_or_404(id)
-    form = EditItemForm()
+    form = EditItemForm(item.label)
     if form.cancel.data:
         return redirect(url_for('show_item', id=item.id))
     if form.validate_on_submit():
@@ -54,8 +55,8 @@ def edit_item(id):
         item.manufacturer = form.manufacturer.data
         item.model = form.model.data
         item.serial = form.serial.data
-        item.wikilink = form.wikilink.data
         item.description = form.description.data
+        item.updated_by = current_user.username
         db.session.commit()
         flash("Changes are saved")
         return redirect(url_for('show_item', id=item.id))
@@ -67,9 +68,11 @@ def edit_item(id):
         form.manufacturer.data = item.manufacturer
         form.model.data = item.model
         form.serial.data = item.serial
-        form.wikilink.data = item.wikilink
         form.description.data = item.description
-    return render_template('edititem.html', title=item.get_name(), item=item, form=form)
+
+        pictures = Picture.query.all()
+        
+    return render_template('edititem.html', title=item.get_name(), item=item, form=form, pictures=pictures)
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -102,13 +105,17 @@ def register():
         return redirect(url_for('index'))
     form = RegistrationForm()
     if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
+        user = User()
+        user.username = form.username.data,
+        user.email = form.email.data
+        user.updated_by = current_user.username
         user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
+
 
 @app.route('/reset_password_request', methods=['GET', 'POST'])
 def reset_password_request():
@@ -122,6 +129,7 @@ def reset_password_request():
         flash('Check your email for the instructions to reset your password')
         return redirect(url_for('login'))
     return render_template('reset_password_request.html', title='Reset Password', form=form)
+
 
 @app.route('/reset_password/<token>', methods=['GET', 'POST'])
 def reset_password(token):

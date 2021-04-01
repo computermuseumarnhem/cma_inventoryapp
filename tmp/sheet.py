@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 import os
+import json
 
-header = ["id", "wikilink", "Actie", "label", "manufacturer", "model", "name", "serial", "Location", "type", "Owner", "Status", "category",
-          "Architecture", "System/interface bus", "OS", "", "", "Hostname", "IP", "DECnet", "Knowhow", "Origin", "Acquired", "MAC", "picture"]
+header = ["id", "wikilink", "action", "label", "manufacturer", "model", "name", "serial", "location", "type", "owner", "status", "category",
+          "architecture", "bus", "os", "unk1", "unk2", "hostname", "ip", "decnet", "knowhow", "origin", "acquired", "mac", "picture"]
 
 categories = {
     'Calculator':                   'Calculator', 
@@ -74,10 +75,15 @@ def row():
                     items[i] = None
 
             items['category'] = categories[items['type']] if items['type'] else None
+            items['type'] = None
 
-            yield items
+            item = {k:v for k,v in items.items() if v is not None}
+
+            yield item
 
 if __name__ == '__main__':
-    for i in row():
-        if i['picture']:
-            print(i['picture'])
+
+    all_items = [ i for i in row() ]
+
+    print(json.dumps(all_items, indent=4))
+    
