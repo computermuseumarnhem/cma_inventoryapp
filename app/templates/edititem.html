@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% import 'bootstrap/wtf.html' as wtf %}
+{% from 'bootstrap/form.html' import render_form %}
 
 {% block app_content %}
 <div class="row">
@@ -12,26 +12,15 @@
         {% if item.thumbnail %}
         <img src="{{ item.get_thumbnail().link('300x300') }}" alt="{{ item.get_thumbnail.name }}" class="img-thumbnail rounded">
         {% else %}
-        <img src="{{ url_for('static', filename='300x300/thumbnail.jpg') }}" alt="No thumbnail" class="img-thumbnail rounded">
+        <img src="{{ url_for('static', filename='300x300/thumbnail.png') }}" alt="No thumbnail" class="img-thumbnail rounded">
         {% endif %}
     </div>
     <div class="col-lg-8">
-        {{ wtf.quick_form(form, form_type='horizontal') }}
+        {{ render_form(form, form_type='horizontal') }}
         <p><i>Last change {{ item.updated_at }} by {{ item.updated_by }}</i></p>
     </div>
 </div>
-{% if pictures %}
-<div class="row">
-    <div class="col-lg-12">
-    <h2>Gallery</h2>
-    {% for picture in pictures %}
-    <div class='col-lg-3' style="height: 220px;">
-    <img src="{{ picture.link('200x200') }}" alt="{{ picture.name }}" class="img-thumbnail rounded align-middle">
-    </div>
-    {% endfor %}
-    </div>
-</div>
-{% endif %}
+{% include "gallery.html" %}
 <div class="row">
     <div class="col-lg-4">
         <p><a href="{{ url_for('show_items') }}">Back</a></p>

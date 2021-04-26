@@ -1,0 +1,14 @@
+{% if pictures %}
+<div class="container">
+    <div class="row">
+        <h2>Gallery</h2>
+    </div>
+    <div class="row" id="gallery">
+        {% for picture in pictures %}
+        <!--<div class="col-12 col-sm-6 col-lg-3">-->
+            <img src="{{ picture.link('200x200') }}" alt="{{ picture.name }}" class="img-thumbnail rounded">
+        <!--</div>-->
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

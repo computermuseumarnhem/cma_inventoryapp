@@ -22,10 +22,13 @@ class EditItemForm(FlaskForm):
         self.original_label = original_label
 
     def validate_label(self, label):
-        if label.data != self.original_label:
-            item = Item.query.filter_by(label=label.data).first()
-            if item is not None:
-                raise ValidationError('Label is not unique. Please use another.')
+        if not label.data:
+            return
+        if label.data == self.original_label:
+            return
+        item = Item.query.filter_by(label=label.data).first()
+        if item is not None:
+            raise ValidationError('Label is not unique. Please use another.')
 
 
 class ShowItemForm(FlaskForm):
@@ -36,7 +39,6 @@ class ShowItemForm(FlaskForm):
     manufacturer = StringField('Manufacturer', render_kw={'readonly': True})
     model = StringField('Model', render_kw={'readonly': True})
     serial = StringField('Serial no', render_kw={'readonly': True})
-    wikilink = StringField('Hack42 wiki', render_kw={'readonly': True})
     description = TextAreaField('Description', render_kw={'readonly': True})
     submit = SubmitField('Edit')
 

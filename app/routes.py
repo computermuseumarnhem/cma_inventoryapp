@@ -38,7 +38,10 @@ def show_item(id):
     form.model.data = item.model
     form.serial.data = item.serial
     form.description.data = item.description
-    return render_template('edititem.html', title=item.get_name(), item=item, form=form)
+
+    pictures = Picture.query.all()
+
+    return render_template('edititem.html', title=item.get_name(), item=item, form=form, pictures=pictures)
 
 
 @app.route('/item/<id>/edit', methods=['GET', 'POST'])
@@ -70,7 +73,7 @@ def edit_item(id):
         form.serial.data = item.serial
         form.description.data = item.description
 
-        pictures = Picture.query.all()
+    pictures = Picture.query.all()
         
     return render_template('edititem.html', title=item.get_name(), item=item, form=form, pictures=pictures)
 
