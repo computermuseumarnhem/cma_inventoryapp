@@ -1,16 +1,35 @@
 {% extends "base.html" %}
 
+{% macro sorted_label(name, title) -%}
+    {% if order == name %}
+        <a href="{{ url_for('show_items', order=name, reverse='false' if reverse else 'true') }}">
+    {% else %}
+        <a href="{{ url_for('show_items', order=name, reverse='false') }}">
+    {% endif %}    
+    {{ title }}
+    {% if order == name %}
+        {% if reverse %}
+            <i class="fas fa-sort-down"></i>
+        {% else %}
+            <i class="fas fa-sort-up"></i>
+        {% endif %}
+    {% else %}
+            <i class="fas fa-sort"></i>
+    {% endif %}    
+    </a>
+{%- endmacro %}
+
 {% block app_content %}
 {% if items %}
-<table class="table table-hover" data-toggle="table" data-search="true">
+<table class="table table-hover table-sm">
     <thead>
     <tr>
-        <th data-sortable="true">Label</th>
-        <th data-sortable="true">Name</th>
-        <th data-sortable="true">Manufacturer</th>
-        <th data-sortable="true">Model</th>
-        <th>Serial</th>
-        <th data-sortable="true">Category</th>
+        <th scope="col">{{ sorted_label('label', 'Label') }}</th>
+        <th scope="col">{{ sorted_label('name', 'Name') }}</th>
+        <th scope="col">{{ sorted_label('manufacturer', 'Manufacturer') }}</th>
+        <th scope="col">{{ sorted_label('model', 'Model') }}</th>
+        <th scope="col">{{ sorted_label('serial', 'Serial') }}</th>
+        <th scope="col">{{ sorted_label('category', 'Category') }}</th>
     </tr>
     </thead>
     <tbody>
@@ -21,7 +40,7 @@
         <td>{{ item.manufacturer if item.manufacturer else '' }}</td>
         <td>{{ item.model if item.model else '' }}</td>
         <td>{{ item.serial if item.serial else '' }}</td>
-        <td>{{ item.category if item.category else '' }}</td>
+        <td>{{ item.category.replace('|', ' · ') if item.category else '' }}</td>
     </tr>
     {% endfor %}
     </tbody>

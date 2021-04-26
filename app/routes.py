@@ -18,9 +18,40 @@ def index():
 
 @app.route('/item')
 def show_items():
-    items = Item.query.order_by(Item.name).all()
 
-    return render_template('items.html', title='Items', items=items)
+    possible_ordering = {
+        'label': Item.label,
+        'name': Item.name,
+        'manufacturer': Item.manufacturer,
+        'model': Item.model,
+        'serial': Item.serial,
+        'category': Item.category,
+    }
+
+    # defining order
+    r_order = request.args.get('order', 'name').lower()         # default sort order: name
+
+    if r_order in possible_ordering:
+        s_order = r_order
+    else:
+        s_order = 'name'
+    
+    order = possible_ordering[s_order]
+    
+    # defining order direction
+    r_reverse = request.args.get('reverse', 'false').lower()    # default sort direction: ascending
+
+    if r_reverse == 'true':
+        s_reverse = True
+    else:
+        s_reverse = False
+
+    if s_reverse:
+        order = order.desc()
+
+    items = Item.query.order_by(order).all()
+
+    return render_template('items.html', title='Items', items=items, order=s_order, reverse=s_reverse)
 
 
 @app.route('/item/<id>', methods=['GET', 'POST'])

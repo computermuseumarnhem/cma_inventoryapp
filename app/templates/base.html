@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block navbar %}
-<div class="container">
+<div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="{{ url_for('index') }}">Computermuseum Arnhem</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container-fluid">
     {% with messages = get_flashed_messages() %}
     {% if messages %}
     {% for message in messages %}
@@ -50,8 +50,8 @@
 {% endblock %}
 
 {% block styles %}
-<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
 {{ super() }}
+<script src="https://kit.fontawesome.com/0a65674c15.js" crossorigin="anonymous"></script>
 <style>
     .clickable-row { cursor: pointer; }
 </style>
@@ -59,7 +59,6 @@
 
 {% block scripts %}
 {{super()}}
-<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
 <script>
     $(document).ready(function($) {
         $(".clickable-row").click(function() {
